@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Saira Condensed", sans-serif;
+    color : white;
+    font-size: 16px;
+    line-height: 1.6;
+    
+    
+}
+.header{
+    position: fixed;
+    z-index: 9999;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    /* background: linear-gradient(180deg, #000000 24.13%, rgba(0, 0, 0, 0.5) 99%); */
+    background-color: #000000;
+    
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-transform: uppercase;
+}
+.Logo{
+    background: no-repeat center center url("assets/images/logo.svg");
+    height: 100px;
+    margin-right: 7vw;
+    
+}
+.Logo h2{
+    padding: 29.58px 0 28.6px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 39.35px;
+    
+}
+.navbar a{
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 28px ;
+    background-color: #000000;
+}
+.navbar a.active{
+    border-bottom: 5px solid #D43B3B;
+}
+.header-img{
+    padding-top: 1px;
+    background-color: #181818;
+    position: relative;
+    height: 1148px;
+    
+}
+.title{
+    padding: 1px;
+    height: 700px;
+    background:  linear-gradient(to right, rgba(0, 0, 0, .0) 0%,rgba(0, 0, 0, 1) 15%,rgba(0, 0, 0, 1) 25%,rgba(0,0,0,0) 50%, rgba(0, 0, 0, 1) 75%, rgba(0, 0, 0, 0.9) 99%),
+     url("./assets/images/Boy_fight.jpg") no-repeat center center;
+    background-position: 100% 50%;
+    
+    
+    
+}
+.title h3{
+    width : 493px;
+    margin: 213px 0 0 15vw;
+    font-family: "Saira Condensed";
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    position: relative;
+
+}
+.title h3 .red{
+    font-family: "Saira Condensed",sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 68px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color:rgba(212, 59, 59, 1);
+    
+}
+
+.under-title{
+    position: absolute;
+    top: 370px;
+    left: 0;
+    right: 0;
+    clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
+    height: 780px;
+    background: no-repeat center center / cover url("./assets/images/Backgroudimg.png");
+    overflow: hidden;
+    
+}
+
+.join-us{
+    margin: 30px 0 43px;
+    background: rgba(242, 243, 244, 1);
+    height: 456px;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.95);
+    height: 100%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sub-container{
+    float: left;
+    width: 45vw;
+    height: 100%;
+    background: no-repeat center center / cover url("./assets/images/girl_fight.jpeg");
+}
+
+.sub-container-main{
+    float : right;
+    width: 45vw;
+    height: 100%;
+    margin: 34.23px 22.23px 6.42px 52.54px;
+
+
+}
+.sub-container-main h4{
+    padding-left: 41px;
+    font-family: "Saira Condensed";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    border-left: 5px solid #D43B3B;
+    text-transform: uppercase;
+    width: 70%;
+    height: 183px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.sub-container-main span{
+    display: inline-block;
+    padding-bottom: 30.4px;
+    font-family: "Saira Condensed";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+.sub-container-main p{
+    font-size :20px;
+    width: 100%;
+    text-transform: capitalize;
+    padding-bottom: 27px;
+    
+}
+.link{
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.6;
+    background : #D43B3B; 
+    padding : 0.5em 1.8em ;
+}
+
+.footer{
+    height: 389px;
+    background-color: #000000;
+}
+.sub-footer-contact{
+    position: relative;
+    height: 93px;
+    padding: 37px 37px 0 37px ;
+    margin-left: 11vw;
+
+}
+.sub-footer h5{
+    
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+
+}
+.sub-footer p{
+        
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    width: 100%;
+}
+.form{
+    position: absolute;
+    top: 35px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-left: 10vw;
+    width: 40vw;
+}
+.form input{
+    border: 0;
+    background:rgba(242, 243, 244, 1);
+    color: #181818;
+    width: 80%;
+}
+.form-input input:focus{
+    border: none;
+    border-radius: 0;
+    outline: none; 
+    background-color: transparent;
+    
+}
+
+.form-input{
+    
+    background:rgba(242, 243, 244, 1);
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+    width: 60%; /* Utiliser un pourcentage au lieu d'une valeur fixe */
+    height: 40.64px;
+    display: flex;
+}
+.form-input img{
+    margin: 9px 6px 9.54px 8px;
+}
+.sub-footer-contact-left{
+    
+    width: 40vw;
+}
+
+.submit{
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.6;
+    background : #D43B3B;
+    margin-left: 3px;
+    width: auto;
+    height: Fixed (40.64px)px;
+    padding : 0.5em 1.8em 0.5em 1.8em;
+    gap: 10px;
+    border-radius: 6px ;
+    opacity: 0px;
+
+}
+.submit input {
+    display: inline-block;
+    background-color: #D43B3B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+    margin-top: 30px;
+    text-transform: uppercase;
+    width: 300px;
+    font-family: "Saira Condensed",sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.7px;
+    text-align: left;
+}
+
+.footer-title span{
+    color : #D43B3B;
+    text-transform: uppercase;
+    font-family: "Saira Condensed",sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 78.7px;
+    text-align: left;
+}
+.social-media{
+    position: relative;
+    margin-left: calc(11vw + 37px);
+    overflow: hidden;
+    
+}
+.footer-review{
+    position: absolute;
+    height: 31px;
+    z-index: 9999;
+    top: 30px;
+    right: 27px;
+    
+    
+    
+}
+
+
+.footer-review a:nth-child(1){
+    margin-right: 59px;
+    width: 163px;
+    height: 31px;
+    gap: 0px;
+    border-radius: 10px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    padding: 0.5em 1.6em;
+    text-transform: capitalize;
+
+
+}
+.footer-review a:nth-child(3){
+    margin: 0 24px;
+}
+
+.review{
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(212, 59, 59, 1);
+    text-decoration:none ;
+    
+
+}
+
+.contact-us-policy{
+    margin-left: calc(11vw + 37px);
+    display: flex;
+    text-transform: capitalize;
+    
+
+}
+.contact-us-policy img{
+    margin-right: 7px;
+    padding-top: 2px;
+}
+.contact-us-policy span{
+    margin-right: 50vw;
+    
+}
+.contact-us-policy a{
+    text-decoration: none;
+}
+.policy{
+    margin-left: 30px;
+}
