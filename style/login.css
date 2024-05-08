@@ -141,6 +141,7 @@ label img{
 }
 
 .connexion-social-media{
+    
     padding-bottom: 5.2vh;
 }
 
@@ -307,12 +308,14 @@ label img{
 }
 
 .input-password a{
+    padding-top: 10px;
     margin-left: 75%;
     font-family: "Poppins";
     font-size: .8vw;
     color: rgba(66, 133, 244, 1);
 
 }
+
 
 input[type="submit"]{
     background: rgba(212, 59, 59, 1);
@@ -327,6 +330,11 @@ input[type="submit"]{
     margin-top: 10px;
     
 }
+input[value="Sign in"]{
+    
+    margin-top: calc(2.7vw - 10px);
+}
+
 .have-account{
     margin-left: 72.5%;
     font-family: "Poppins";
